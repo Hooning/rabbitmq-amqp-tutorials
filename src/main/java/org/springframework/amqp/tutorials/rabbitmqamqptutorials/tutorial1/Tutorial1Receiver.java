@@ -1,10 +1,8 @@
-package org.springframework.amqp.tutorials.tutorial1;
+package org.springframework.amqp.tutorials.rabbitmqamqptutorials.tutorial1;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
-import org.springframework.stereotype.Component;
 
-@Component
 @RabbitListener(queues = "hello")
 public class Tutorial1Receiver {
 

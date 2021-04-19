@@ -1,4 +1,4 @@
-package org.springframework.amqp.tutorials;
+package org.springframework.amqp.tutorials.rabbitmqamqptutorials;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -6,7 +6,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.stereotype.Component;
 
-@Component
 public class RabbitAmqpTutorialsRunner implements CommandLineRunner {
   @Value("${tutorial.client.duration: 0}")
   private int duration;
